@@ -1,0 +1,307 @@
+body{
+    background-color:lightgrey;
+}
+
+header{
+    background-image: url(background.jpg);
+    background-color:rgb(94, 136, 30);
+    background-repeat:no-repeat;
+    background-position:100%;
+    background-size: cover;
+    margin-top: 10px;
+    height:800px;
+    text-align: center;
+
+    
+
+
+}
+
+.nav{
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.navigation{
+    display:inline-block;
+    margin:0px 40px 20px 10px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    color:rgba(255, 11, 11, 0.76);
+    background-color: rgb(113, 119, 129);
+    text-align: center;
+    text-decoration: none;
+    border:none;
+}
+
+a:link{
+    color:red;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(18, 206, 43);
+    background-color: rgb(157, 160, 163);
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: whitesmoke;
+
+}
+
+a:active{
+    color:indianred
+}
+
+h1 {
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color:yellow;
+    background-color:lightblue;
+    animation-name: Mypotfolio;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+    animation-play-state: running;
+    letter-spacing: 3px;
+}
+
+@keyframes Mypotfolio {
+    25%{background-color: yellow };
+    50%{background-color: antiquewhite};
+    100%{background-color: lightblue};
+}
+
+ .description{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+    color:lightgreen;
+}
+
+.content {
+    background-color: azure;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: normal;
+}
+
+.Myphoto {
+    background-color:rgb(202, 206, 209);
+    padding:3px;
+    text-align: center;
+   
+}
+
+.figures {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+figure{
+    border-radius:5px;
+    border-style: double;
+    display:inline-block;
+    flex-wrap:wrap;
+}
+
+figcaption {
+    text-align: center;
+    text-transform:uppercase;
+    color:brown;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.about {
+    background-color: azure;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-style: italic;
+    
+}
+
+.none {
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+}
+
+.background {
+    background-image: url(image.jpg);
+}
+
+.photos{
+    text-align: center;
+}
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:lightcoral;
+}
+
+footer:hover {
+    color:rgb(0, 255, 42);
+    text-decoration: underline;;
+    
+}
+
+.header {
+    background-image: url(photo.jpg);
+}
+
+.headerImage {
+    background-image: url(Front\ end.jpg);
+}
+
+ul{
+     list-style-type:none;
+}
+
+.projectlist{
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style:normal;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+.projects{
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: azure;
+}
+
+.tittle{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: normal;
+}
+
+.sampleimage{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    color:brown;
+    padding:3px;
+    animation-name: sampleimage;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+    animation-play-state: running;
+}
+
+@keyframes sampleimage{
+    25%{background-color:bisque};
+    50%{background-color:aquamarine};
+    100%{background-color: aliceblue};
+}
+
+.contact{
+    background-color:azure;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform:uppercase ;
+    color:red;
+    cursor:text;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fieldset{
+    color:brown
+}
+
+.legend{
+    color:darkcyan;
+}
+
+.gender{
+    color:indianred;
+}
+
+button{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform:uppercase ;
+    color:blue;
+}
+
+button:hover {
+    background-color: gray;
+    text-decoration: underline;
+    color:aqua;
+    cursor:pointer;
+}
+
+.personalcontact{
+    text-align:center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    color:blueviolet;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

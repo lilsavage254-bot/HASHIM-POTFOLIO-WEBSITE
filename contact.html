@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HASHIM'S POTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="nav">
+                <li class="navigation"><a href="index.html">HOME</a></li>
+                <li class="navigation"><a href="projects.html">PROJECTS</a></li>
+                <li class="navigation"><a href="about.html">ABOUT</a></li>
+                <li class="navigation"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+
+        <form action="contact.php" method="post" enctype="application/x-www-form-urlencoded">
+
+            <label for="name">NAME :</label>
+            <input type="text" name="name" id="name"><br>
+
+            <label for="email">EMAIL :</label>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="subject">SUBJECT :</label>
+            <input type="text" name="subject" id="subject"><br>
+
+            <label for="message">MEESAGE :</label>
+            <textarea  name="message" id="message" rows="25" cols="30">
+                  Please enter your message here.
+            </textarea><br>
+
+                <fieldset class="fieldset">
+                    <legend class="legend">WORKS</legend>
+
+                        <input type="checkbox" name="WEB DEVELOPMENT" id="WEB DEVELOPMENT" value="WEB DEVELOPMENT">
+                        <label for="WEB DEVELOPMENT">WEB DEVELOPMENT</label>
+
+                        <input type="checkbox" name="WEB Design" id="WEB Design" value="WEB DESIGN">
+                        <label for="WEB DESIGN">WEB DESIGN</label>
+
+                        <input type="checkbox" name="CSS" id="CSS" value="CSS">
+                        <label for="CSS">CSS</label>
+
+                        <input type="checkbox" name="JAVA SCRIPT" id="JAVASCRIPT" value="JAVASCRIPT">
+                        <label for="JAVASCRIPT">JAVASCRIPT</label>
+
+                        <input type="checkbox" name="HTML" id="HTML" value="HTML">
+                        <label for="HTML">HTML</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="gender">GENDER</legend>
+
+                         <input type="radio" name="Male" id="Male" value="Male">
+                         <label for="Male">Male</label>
+
+                         <input type="radio" name="Female" id="Female" value="Female">
+                         <label for="Female">Female</label>
+                </fieldset>
+
+                <button  type="submit">SUBMIT</button>
+
+        </form>
+
+    </section>
+
+    <section class="personalcontact">
+        Reach me directly through :<br>
+        Email : <a href="mailto:bayahashim40@gmail.com">Email Me</a><br>
+        My Personal Contacts are: <a href="tel:+254797749346">Contact</a><br> 
+    </section>
+
+    <footer>
+        For more information  <a href="tel:+254797749346">CONTACT</a><br>
+        Located in Mombasa Plaza 2nd-floor.
+    </footer>
+    
+</body>
+</html>
